@@ -87,11 +87,23 @@ section {
   
 /* Hero style start */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/flipped-hero-image.jpeg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.hero h2 {
+    color: #fce138;
+    font-size: 28px;
+    font-weight: italic;
+}
+.hero p {
+    color: white;
+}
+.hero h2 p {
+    width: 50%;
+    margin: 20px 25% 20px auto;
 }
 .hero-form {
     color: #024e76;
