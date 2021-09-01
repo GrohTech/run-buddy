@@ -11,20 +11,19 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 header a {
     text-decoration: none;
     color: #fce138;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 header nav ul li {
@@ -70,11 +69,11 @@ section {
     display: inline-block;
     border-bottom: 3px solid;
   }
-  
+
   .primary-border {
     border-color: #fce138;
   }
-  
+
   .secondary-border {
     border-color: #39a6b2;
   }
@@ -84,7 +83,7 @@ section {
   .text-right {
       text-align: right;
   }
-  
+
 /* Hero style start */
 .hero {
     background-image: url("../images/flipped-hero-image.jpeg");
@@ -164,18 +163,18 @@ section {
 .steps div {
     margin-bottom: 80px;
   }
-  
+
   .steps img {
     width: 15%;
     margin: 10px 0;
   }
-  
+
   .steps h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
   }
-  
+
   .steps p {
     color: #39a6b2;
     font-size: 23px;
