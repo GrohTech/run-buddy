@@ -96,7 +96,7 @@ section {
 .hero h2 {
     color: #fce138;
     font-size: 28px;
-    font-weight: italic;
+    font-weight: bold italic;
 }
 .hero p {
     color: white;
